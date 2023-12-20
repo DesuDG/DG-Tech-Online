@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Css/style.css">
+
+</head>
+<body>
+  <div class="logo">
+    <h1>DG Tech</h1>
+    <h3>የቴክኖሎጅ ት/ትና መረጃ </h3>
+  </div>
+<div class="navbar" id="mynavbar">
+
+  <a href="#home">HOME</a>
+  <a href="#news">DESIGN</a>
+  <div class="dropdown">
+    <button class="dropbtn">TUTORIALS 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-list">
+      <a href="#">HTML</a>
+      <a href="#">CSS</a>
+      <a href="#">JAVASCRIPT</a>
+      <a href="#">PHP</a>
+      <a href="#">MYSQL</a>
+      <a href="#">PYTHON</a>
+      <a href="#">JAVA</a>
+      <a href="#">REACT.JS</a>
+      <a href="#">NODE.JS</a>
+    </div>
+  </div> 
+  <a href="#contact">CONTACT</a>
+  <a href="#about">ABOUT</a>
+  <a href="#about" class="ri">LOGIN</a>
+  <a href="#about" class="ri">SIGNUP</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div class="cont">
+  <h1>Learn <br> <span>Technology</span></h1>
+  <p class="para"> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. <br> Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. </p>
+
+
+  <button class="learn"><a href="#">Start Now</a></button>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("mynavbar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+</script>
+
+</body>
+
+
+</html>
